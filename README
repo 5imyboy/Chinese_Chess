@@ -1,0 +1,36 @@
+CHINESE CHESS
+
+TO RUN:
+run python3 on main.py to run the program.
+Some ways of doing this are
+- opening main.py on some API (like visual studio code) or
+- navigating to main.py on the terminal or shell, and typing "python3 <path-to-file>/main.py"
+Note that the game uses pygame to function.
+Thus, pygame must be installed on your machine for the game to work.
+To install pygame, type "pip3 install pygame" into the terminal or shell.
+
+
+TO MOVE:
+When it is your turn
+- click on the piece you want to move. The piece will move with your mouse
+- drag the piece to where you want to move it to, and click again
+- to cancel a move, move the piece to its original spot and click
+- move already made cannot be cancelled
+
+
+FILES
+main.py:
+the main program. Starts and stops the game.
+
+board.py:
+has some functions that the board needs to display
+
+Pieces:
+an image of all pieces in the game. The original image was from
+https://image.slidesharecdn.com/playchinesechess-100804063853-phpapp01/95/play-chinese-chess-5-728.jpg?cb=1280903983
+
+pieces.py:
+contains some general functions for each piece
+
+the rest of the files contain unique implementations of functions for each piece
+
